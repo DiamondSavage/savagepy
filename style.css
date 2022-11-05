@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+    height: 100%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(pears.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-wrapper{
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+header nav{
+    display: flex;
+}
+header h1{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 2rem;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+header li{
+    padding: 0 2rem;
+}
+header li a{
+    font-weight: 500;
+    color: grey;
+    text-decoration: none;
+}
+.hero .container{
+    align-items: center;
+    margin-left: 300px;
+}
+.hero{
+    padding-top: 6rem;
+}
+h2{
+    font-size: 3rem;
+    color: white;
+    font-weight: 400;
+}
+span{
+    font-size: 6rem;
+    color: yellow;
+    font-weight: 800;
+    display: block;
+}
+p{
+    color: grey;
+    font-weight: 900;
+    font-size: medium;
+}
+button{
+    background-color: yellow;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    border: 0;
+    margin-top: 2.5rem;
+    transition: 2s;
+}
+button a{
+    text-decoration: none;
+}
+button:hover{
+    opacity: 0.3;
+    font-size: 1.5rem;
+}
+@media (max-width: 400px){
+    header li{
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 960px){
+    html{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 760px){
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+    .hero{
+        padding: 0 2rem;
+    }
+    .hero .container{
+        margin-left: 0;
+        margin-top: 200px;
+        text-align: center;
+        width: 100%;
+    }
+    p{
+        text-align: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 480px){
+    html{
+        font-size: 10px;
+    }
+    p{
+        width: auto;
+    }
+}
